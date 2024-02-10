@@ -13,6 +13,9 @@
 
 
 ## Ques4. What is the purpose of the 'pass' statement in Python? Provide a code example.
+### 'pass' statement used as a placeholder when syntactically, a statement is required, but you don't want to execute/write any code.for example
+#### def myfun():
+####    pass
 ## Ques5. What are the different logical operators available in Python? Provide examples for each.
 ## Ques6. Explain the difference between 'and' and '&' operators in Python with examples.
 ### 'and' is used for logical conjunction. example 
