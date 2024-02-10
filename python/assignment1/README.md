@@ -12,5 +12,5 @@
 ## Ques6. Explain the difference between 'and' and '&' operators in Python with examples.
 ## Ques7. What is the 'in' keyword used for in Python? Provide an example.
 ## Ques8. What are the different comparison operators in Python? Provide examples for each.
-## Ques8. How does the 'not' operator work in Python? Provide an example.
-## Ques8. Explain the concept of short-circuit evaluation in Python with an example.
+## Ques9. How does the 'not' operator work in Python? Provide an example.
+## Ques10. Explain the concept of short-circuit evaluation in Python with an example.
