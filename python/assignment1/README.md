@@ -11,11 +11,11 @@
 #### a, b = 2, 5
 #### print(a if a < b else b)
 
-
 ## Ques4. What is the purpose of the 'pass' statement in Python? Provide a code example.
 ### 'pass' statement used as a placeholder when syntactically, a statement is required, but you don't want to execute/write any code.for example
 #### def myfun():
 ####    pass
+
 ## Ques5. What are the different logical operators available in Python? Provide examples for each.
 ### and: Returns True if both operands are true, otherwise, it returns False.
 #### print(True and True) output: True
@@ -37,14 +37,46 @@
 ####     print("Both conditions are true")
 #### else:
 ####     print("At least one condition is false")
-
 ### while '&' is used for performing bitwise AND operation on integers. for example
 #### x = 5
 #### y = 3 
 #### result = x & y  # binary representation: 0001 (1 in decimal)
 #### print("Bitwise AND result:", result)
+
+
 ## Ques7. What is the 'in' keyword used for in Python? Provide an example.
+### In Python, the in keyword is used to check for membership within a sequence
+#### sentence = "The quick brown fox jumps over the lazy dog"
+#### if 'fox' in sentence:
+####     print("Yes, 'fox' is in the string")
+#### else:
+####     print("No, 'fox' is not in the string")
+
 ## Ques8. What are the different comparison operators in Python? Provide examples for each.
+### == (Equal to): Checks if two values are equal.
+#### result = 1 == 2  
+#### print(result) output: False
+
+### != (Not equal to): Checks if two values are not equal.
+#### result = 1 != 2 
+#### print(result) output: True
+
+### > (Greater than): Checks if the left operand is greater than the right operand.
+#### result = 1 > 2
+#### print(result) output: False
+
+### < (Less than): Checks if the left operand is less than the right operand.
+#### result = 1 < 2
+#### print(result) output: True
+
+### >= (Greater than or equal to): Checks if the left operand is greater than or equal to the right operand.
+#### result = 1 >= 2
+#### print(result) output: False
+
+### <= (Less than or equal to): Checks if the left operand is less than or equal to the right operand.
+#### result = 1 <= 2
+#### print(result) output: True
+
 ## Ques9. How does the 'not' operator work in Python? Provide an example.
 ### In Python, the not operator is a unary operator used to negate the value of a boolean expression. It returns True if the expression is False, and False if the expression is True. for example
 #### print(not True) output: False
