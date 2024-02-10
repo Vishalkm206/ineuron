@@ -82,3 +82,11 @@
 #### print(not True) output: False
 #### print(not False) output: True
 ## Ques10. Explain the concept of short-circuit evaluation in Python with an example.
+### Short-circuit evaluation is a concept used in programming languages, including Python, where the evaluation of an expression stops as soon as the result is known with certainty, without evaluating the remaining parts of the expression.
+###  the 'and' and 'or' operators use short-circuit evaluation
+### for example i have a function
+#### def func():
+#### print("This function is called")
+####    return True
+#### result1 = False and func() #here function will not be called because of the False at starting in case of 'and'
+#### result2 = True or func() #here function will not be called because of the True at starting in case of 'or'
