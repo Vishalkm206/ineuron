@@ -17,6 +17,17 @@
 #### def myfun():
 ####    pass
 ## Ques5. What are the different logical operators available in Python? Provide examples for each.
+### and: Returns True if both operands are true, otherwise, it returns False.
+#### print(True and True)
+#### print(True and False)
+### or: Returns True if at least one of the operands is true, otherwise, it returns False.
+#### print(True or True)
+#### print(True or False)
+### not: Returns the opposite boolean value of the operand.
+#### print(not True)
+#### print(not False)
+
+
 ## Ques6. Explain the difference between 'and' and '&' operators in Python with examples.
 ### 'and' is used for logical conjunction. example 
 #### x = 5
