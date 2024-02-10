@@ -46,4 +46,7 @@
 ## Ques7. What is the 'in' keyword used for in Python? Provide an example.
 ## Ques8. What are the different comparison operators in Python? Provide examples for each.
 ## Ques9. How does the 'not' operator work in Python? Provide an example.
+### In Python, the not operator is a unary operator used to negate the value of a boolean expression. It returns True if the expression is False, and False if the expression is True. for example
+#### print(not True) output: False
+#### print(not False) output: True
 ## Ques10. Explain the concept of short-circuit evaluation in Python with an example.
