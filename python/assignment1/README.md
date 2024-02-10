@@ -7,6 +7,11 @@
 ### Immutability in python means once object is created you cannot further modify, update or alter anything to it. for example, strings in python.
 
 ## Ques3. How is a ternary conditional operator used in Python? Provide an example.
+### ternary operator determines if a condition is true or false and then returns the appropriate value in accordance with the result. for example
+#### a, b = 2, 5
+#### print(a if a < b else b)
+
+
 ## Ques4. What is the purpose of the 'pass' statement in Python? Provide a code example.
 ## Ques5. What are the different logical operators available in Python? Provide examples for each.
 ## Ques6. Explain the difference between 'and' and '&' operators in Python with examples.
