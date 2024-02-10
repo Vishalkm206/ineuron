@@ -11,19 +11,19 @@
 ## Ques5. What are the different logical operators available in Python? Provide examples for each.
 ## Ques6. Explain the difference between 'and' and '&' operators in Python with examples.
 ### 'and' is used for logical conjunction. example 
-x = 5
-y = 10
-z = 15
-if x < y and y < z:
-    print("Both conditions are true")
-else:
-    print("At least one condition is false")
+#### x = 5
+#### y = 10
+#### z = 15
+#### if x < y and y < z:
+####     print("Both conditions are true")
+#### else:
+####     print("At least one condition is false")
 
 ### while '&' is used for performing bitwise AND operation on integers. for example
-x = 5
-y = 3 
-result = x & y  # binary representation: 0001 (1 in decimal)
-print("Bitwise AND result:", result)
+#### x = 5
+#### y = 3 
+#### result = x & y  # binary representation: 0001 (1 in decimal)
+#### print("Bitwise AND result:", result)
 ## Ques7. What is the 'in' keyword used for in Python? Provide an example.
 ## Ques8. What are the different comparison operators in Python? Provide examples for each.
 ## Ques9. How does the 'not' operator work in Python? Provide an example.
